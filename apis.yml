@@ -1,8 +1,24 @@
 aid: switch-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/switch-therapeutics.png
 name: Switch Therapeutics
-description: 'Switch Therapeutics is a company surfaced as a portfolio company of crv, insight-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: biotech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Switch Therapeutics is a precision neuroscience biotechnology company founded in 2020 and
+  based in San Francisco, California, developing biomarker-gated genetic medicines for central nervous
+  system (CNS) diseases with high unmet need. Its Conditionally Activated siRNA (CASi) platform combines
+  properties of single- and double-stranded RNAs in one molecule to enable efficient self-delivery,
+  potent and durable gene knockdown, and cell-type/cell-state selectivity. Its lead development candidate
+  is CASi-APOE, a liver-sparing APOE RNAi therapy. The company is backed by CRV and Insight Partners and
+  is a therapeutics developer with no public developer API, SDK, or technical documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/switch-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Biotech
+- Biotechnology
+- Pharmaceuticals
+- Genetic Medicine
+- RNAi
+- Neuroscience
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/switch-therapeutics-domain-security.yml
 - type: Website
   url: https://www.switchthera.com/
+- type: Blog
+  url: https://www.switchthera.com/news/
+- type: PrivacyPolicy
+  url: https://www.switchthera.com/privacy-policy
+- type: TermsOfService
+  url: https://www.switchthera.com/terms
+- type: Careers
+  url: https://www.switchthera.com/careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/switch-therapeutics
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
